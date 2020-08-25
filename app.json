@@ -1,8 +1,23 @@
 {
-  "pages":[
-    "pages/index/index"
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/welcome/post-detail/post-detail",
+    "pages/post/post",
+    "pages/movies/movies"
   ],
-  "window":{
-    "navigationBarBackgroundColor":"#b3d4db"
+  "window": {
+    "navigationBarBackgroundColor":"#405f80"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/movies/movies",
+        "text":"电影"
+      },{
+        "pagePath":"pages/welcome/welcome",
+        "text":"文章"
+      }
+    ]
   }
 }

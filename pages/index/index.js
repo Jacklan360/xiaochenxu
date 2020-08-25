@@ -3,5 +3,12 @@
 const app = getApp()
 
 Page({
-  
+  onTap:function(){
+    // wx.navigateTo({
+    //   url: '../welcome/welcome',
+    // })
+    wx.redirectTo({
+      url: '../welcome/welcome',
+    })
+  }
 })
